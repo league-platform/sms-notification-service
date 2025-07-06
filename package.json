@@ -1,0 +1,15 @@
+{
+  "name": "sms-notification-service",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.6.1",
+    "@fastify/swagger-ui": "^1.7.2",
+    "aws-sdk": "^2.1482.0",
+    "fastify": "^4.25.0"
+  }
+}
